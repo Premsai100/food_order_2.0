@@ -1,0 +1,62 @@
+<html>
+<head>
+    <style>
+          *{
+                margin: 0;
+                padding: 0;
+            }
+            nav ul li{
+                list-style: none;
+
+            }
+            nav ul li a{
+                text-decoration: none;
+            }
+            .re{
+                display: inline;
+                margin: 0 50px;
+                color: black;
+               
+            }
+            .gh{
+                height: 0px;
+                margin: auto;
+                padding: 10px 20px;
+                width: 100%;
+
+            }
+            .re:hover{
+                border-bottom: 2px solid black;
+                transform: .2s;
+            }
+            #ui{
+                float: right;
+            }
+    </style>
+
+</head>
+<body>
+    <nav>
+        <ul class="gh">
+            <li class="re"><a href="#">HOME</a></li>
+            <li class="re"><a href="sub.html">LOGIN</a></li>
+            <li class="re"><a href="reg.html">REGISTRATION</a></li>
+            <li class="re" id="ui"><a href="contact.html">contact</a></li>
+        </ul>
+    </nav>
+    <center>
+        <h1><b style="color: red; font-size: 80px;"> STORE</b></h1><br>
+        <img src="ty.png" width="200px" height="200px" >
+        <h1>REGISTRATION FORM</h1>
+        username<input type="text" placeholder="username"><br><br>
+        password<input type="text" placeholder="password"><br><br>
+        name<input type="text" placeholder="name"><br><br>
+        gender : <input type="radio" value="male">male<input type="radio" value="female">female<br>
+        state<select>
+            <option>telangana</option>
+            <option>A.P</option>
+            </select><br><br>
+        <input type="submit" value="register" >
+    </center>
+</body>
+</html>
